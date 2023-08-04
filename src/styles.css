@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #0B2434;
+  padding: 20px;
+}
+
+main {
+  background-color: #F5F5F5;
+  height: 400px;
+  max-width: 800px;
+  border-radius: 5px;
+}
+
+.tenzies__main {
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.tenzies__dice {
+  display: grid;
+  grid-template: auto / repeat(5, auto);
+  grid-gap: 18px;
+  margin-bottom: 24px;
+}
+
+.roll-dice {
+  background-color: #5035FF;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.18);
+}
+
+.roll-dice:hover {
+  background-color: #3a1fc7;
+}
